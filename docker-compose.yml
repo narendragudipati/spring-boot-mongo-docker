@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   springapp:
-    image: mongo-db:latest
+    image: 192.168.100.101:8088/mongo-db:latest
     depends_on:
       - mongo
     ports:
